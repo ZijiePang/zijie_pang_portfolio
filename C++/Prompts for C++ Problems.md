@@ -54,3 +54,49 @@ the main function.
 An example of a program timestep output is given below.
 
 <img width="310" alt="image" src="https://github.com/ZijiePang/zijie_pang_portfolio/assets/60828911/f6f1fd26-ffef-4adb-abf3-b9b26068570b">
+
+
+
+## Linked Lists & File Reading
+Imagine a group of friends went out to dinner together. When the bill comes they all give
+different amounts to contribute to the total, but after wish to balance everything out equally so
+that each person pays the same amount. Knowing how much each person is supposed to pay is
+simple enough, just add up all the amounts paid and divide by the number of people; but that
+doesn’t tell anyone how to go about distributing the payments, who should give what amount to
+whom?
+
+Write a program that will print out a step by step list of instructions of how to reimburse
+everyone given the name of the person and amount of money they paid. This program should
+prompt the user to enter a file name associated with the info, which will then be read in. All
+information from the external file should be read into a linked list. An example is provided below:
+
+**Input**: 
+
+<img width="304" alt="image" src="https://github.com/ZijiePang/zijie_pang_portfolio/assets/60828911/029b9bfe-f837-46b8-ae4f-98eac43d97e3">
+
+
+**Output**:
+
+<img width="451" alt="image" src="https://github.com/ZijiePang/zijie_pang_portfolio/assets/60828911/09b9a8fc-d15e-4171-83e7-dc42d7ca5a05">
+
+
+
+
+**A few things to note:**
+
+- Amounts and names are separated by a space (“ “), not tab.
+- You should design your own linked list and node classes for this. The node classes
+would essentially be representing people, and you can choose whatever attributes you
+like for it, but might be helpful to store name and amount paid (from the input file), as
+well amount owed, which can be initialized to 0 and then altered later upon calculating
+the balances
+- You must be able to read in full names, accounting for both 2 and 3 part names
+- The information should be read into a linked list, but after that you can handle it in
+whatever format you find convenient
+- You can assume the data file will have at least 2 entries with both names and amounts
+on it; we will not try to break it upon testing with empty files or bad formatting
+- The program should not alter anything in the input file, you simply are reading it in
+
+
+## Red-Black Tree
+This project includes code for insertions in a Red-Black tree.
