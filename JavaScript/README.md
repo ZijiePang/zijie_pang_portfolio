@@ -1,5 +1,10 @@
 ## Introduction
-Here is a sample personal website I have created using Vue.js and the iView toolkit. 
+
+**Please click the link below to view my personal website project:**
+
+**https://github.com/ZijiePang/zijie_personal_website**
+
+This is a sample personal website I have created using Vue.js and the iView toolkit. 
 Please note that it is still a work in progress, so stay tuned for any updates.
 
 ## Screenshots
